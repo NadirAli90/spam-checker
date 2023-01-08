@@ -2,6 +2,10 @@ import streamlit as st
 import pickle
 import string
 import nltk
+nltk.download('wordnet')
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('all-corpora')
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 
