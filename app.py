@@ -171,7 +171,6 @@ if st.button("Submit"):
     if not input_message.strip():
         st.error("Please enter something in the text box.")
     else:
-        if st.button('Submit'):
             # 1. PREPROCESS
 
             transformed_text = transform_text(input_message)
